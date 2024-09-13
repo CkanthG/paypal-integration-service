@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: paypal-integration-service
+paypal:
+  client-id: CLIENT_ID
+  client-secret: CLIENT_SECRET
+  mode: sandbox # use sandbox for my testing, we use 'live' in realtime payments.
